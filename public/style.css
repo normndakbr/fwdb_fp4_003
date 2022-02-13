@@ -1,0 +1,54 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Button */
+.btn-rad {
+    border-radius: 25px;
+}
+
+.btn-hover:hover {
+    font-weight: 700;
+}
+
+.info {
+    border-color: #234CAD;
+    color: #234CAD;
+  }
+  
+.info:hover {
+    background: #234CAD;
+    color: white;
+}
+
+.default {
+    border-color: #F2F6FF;
+    background: #F2F6FF;
+    color: #234CAD;
+}
+  
+.default:hover {
+    background: #234CAD;
+    color: #F2F6FF;
+}
+
+/* HERO */
+.hero {
+    border-radius: 60px;
+    height: 530px;
+}
+
+.ui {
+    position: relative;
+    bottom: 15vh;
+    left: 0vw;
+    max-width: 880px;
+    max-height: auto;
+}
+
+/* SECTION 4 */
+.rad-60 {
+    border-radius: 60px;
+}
+
+
