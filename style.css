@@ -51,4 +51,26 @@ body {
     border-radius: 60px;
 }
 
+/* section text-left */
+.container-right{
+    margin: -560px;
+    width: 575px;
+    margin-left: 580px;
+    color:#234CAD;
+}
 
+.text-left{
+   margin: 130px;
+}
+
+.grid
+{
+    margin: 100px;
+    margin-top: 600px;
+}
+.grid>img
+{
+     padding: 10px;
+     width: 380px;
+     height: 380px;
+}
