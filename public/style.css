@@ -14,8 +14,8 @@ body {
 .info {
     border-color: #234CAD;
     color: #234CAD;
-  }
-  
+}
+
 .info:hover {
     background: #234CAD;
     color: white;
@@ -26,7 +26,7 @@ body {
     background: #F2F6FF;
     color: #234CAD;
 }
-  
+
 .default:hover {
     background: #234CAD;
     color: #F2F6FF;
@@ -51,4 +51,275 @@ body {
     border-radius: 60px;
 }
 
+.textSectionC1 {
+    margin-top: 130px;
 
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 56px;
+    /* or 117% */
+
+
+    color: #234CAD;
+
+}
+
+.textSectionC1-2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 35px;
+    /* or 162% */
+
+
+    color: #234CAD;
+
+}
+
+.cardSectionC {
+    width: 550px;
+    height: 550px;
+    left: 465px;
+    top: 0px;
+
+}
+
+.btn-sectionc {
+    border: 2px solid #234CAD;
+    box-sizing: border-box;
+    border-radius: 32.5px;
+    background: #FFFFFF;
+    width: 180px;
+    height: 60px;
+}
+
+.txt-btn-sectionc {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    /* identical to box height, or 164% */
+
+    text-align: center;
+
+    color: #234CAD;
+    text-decoration: none;
+
+}
+
+.price {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-pricing1 {
+    background-image: url('assets/img/Card\ Background.svg');
+    width: 380px;
+    height: 380px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.card-pricing {
+    background-image: url('assets/img/Card\ Background.svg');
+    width: 380px;
+    height: 380px;
+    margin-left: 40px;
+}
+
+.card-pricing2 {
+    background-image: url('assets/img/Stroke.svg');
+    width: 380px;
+    height: 380px;
+    margin-left: 40px;
+}
+
+.txt-title {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #234CAD;
+}
+
+.txt-price {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 48px;
+    /* identical to box height, or 86% */
+
+    text-align: center;
+
+    color: #234CAD;
+
+}
+
+.txt-month {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #234CAD;
+}
+
+.btn-pricing {
+    background: #FFFFFF;
+    border-radius: 37.5px;
+    /* border: 2px solid #234CAD; */
+    border: #FFFFFF;
+    width: 200px;
+    height: 50px;
+}
+
+.btn-pricing2 {
+    background: #FFFFFF;
+    border-radius: 37.5px;
+    border: 2px solid #234CAD;
+    /* border: #234CAD; */
+    width: 200px;
+    height: 50px;
+}
+
+.btn-pricing a {
+    text-decoration: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #234CAD;
+}
+
+.btn-pricing2 a {
+    text-decoration: none;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    /* identical to box height, or 160% */
+
+    text-align: center;
+
+    color: #234CAD;
+}
+
+.contact {
+    background: #F2F6FF;
+    border-radius: 60px;
+    margin-left: 0px;
+    width: auto;
+    height: 383px;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+.groupInput {
+    justify-content: center;
+    align-items: center;
+}
+
+.inputText {
+    /* position: relative; */
+    background: #FFFFFF;
+    border-radius: 17.5px;
+    box-shadow: none;
+    border: 0;
+    width: 500px;
+    height: 60px;
+}
+
+.btn-submit {
+    background: #234CAD;
+    border-radius: 12.5px;
+    position: absolute;
+    left: 730px;
+    top: 210px;
+    /* top: 10px; */
+    background: none;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.txt-footer1 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+    /* identical to box height, or 163% */
+
+
+    color: #234CAD;
+}
+
+.txt-footer2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height, or 161% */
+
+
+    color: #234CAD;
+
+}
+
+@media (min-width: 768px) {
+    .order-md-3 {
+        margin-top: 30px;
+    }
+
+    .order-md-2 {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 500px) {
+    .order-md-2 {
+        margin-top: 30px;
+    }
+
+    .order-md-3 {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-submit {
+        left: 430px;
+        top: 190px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-submit {
+        left: 430px;
+        top: 195px;
+    }
+}

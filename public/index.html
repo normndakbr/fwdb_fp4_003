@@ -26,7 +26,7 @@
   <title>Bussines App</title>
 </head>
 <body">
-  <!--  section A NAVBAR Firman-->
+  <!--  section A NAVBAR -->
   <nav class="navbar navbar-expand-lg navbar-light my-3 pb-4" style="background-color: #fff; z-index: 1;">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
@@ -37,10 +37,10 @@
       <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo03">
         <img src="./assets/img/menu-button.svg" id="myDIV" alt="None" width="50" height="50" style="cursor: default;">
         <div class="navbar-nav jus">
-          <a class="nav-link mx-4" aria-current="page" href="#" style="font-weight: 600; color: #234CAD;">Home</a>
-          <a class="nav-link mx-4" href="#" style="font-weight: 600; color: #234CAD;">Product</a>
-          <a class="nav-link mx-4" href="#" style="font-weight: 600; color: #234CAD;">About</a>
-          <a class="nav-link mx-4" href="#" style="font-weight: 600; color: #234CAD;">Contact</a>
+          <a class="nav-link mx-4" aria-current="page" href="#home" style="font-weight: 600; color: #234CAD;">Home</a>
+          <a class="nav-link mx-4" href="#product" style="font-weight: 600; color: #234CAD;">Product</a>
+          <a class="nav-link mx-4" href="#about" style="font-weight: 600; color: #234CAD;">About</a>
+          <a class="nav-link mx-4" href="#contact" style="font-weight: 600; color: #234CAD;">Contact</a>
         </div>
         <div class="justify-content-end">
           <button type="button" class="btn btn-rad info" style="font-weight: 700; padding: 7px 35px;">Login</button>
@@ -51,8 +51,9 @@
     </div>
   </nav>
 
-  <!--  section A HERO Firman -->
-  <div class="container hero mt-4" style="background: #F2F6FF;">
+
+  <!--  section A HERO  -->
+  <div class="container hero mt-4" style="background: #F2F6FF;" id="home">
     <div class="row p-5">
       <div class="col-sm-4 p-5">
         <h1 class="display-5 fw-bold" style="color: #234CAD;">Business <br> Communications <br> Reinvented</h1>
@@ -69,8 +70,8 @@
     </div>
   </div>
 
-  <!-- Section B 3 ... -->
-  <div class="container my-5 py-5">
+  <!-- Section B 3  -->
+  <div class="container my-5 py-5" id="product">
     <div class="row d-flex justify-content-between">
       <div class="col-6">
         <div class="row">
@@ -105,7 +106,7 @@
     </div>
   </div>
 
-  <!-- Section B 4 ... -->
+  <!-- Section B 4 -->
   <div class="container">
     <div class="row d-flex justify-content-center my-5 py-5">
       <div class="col-5 mx-5 rad-60 d-flex justify-content-center" style="background-color: #F2F6FF;">
@@ -114,7 +115,8 @@
 
       <div class="col-4 mx-5 rad-60 d-grid align-self-center">
         <h1 class="display-5 fw-bold" style="color: #234CAD;">Use our app to <br> send messages <br> to your team</h1>
-        <p class="fs-6 my-3" style="color: #234CAD;">We offer really easy communications for <br> all businesses from small to
+        <p class="fs-6 my-3" style="color: #234CAD;">We offer really easy communications for <br> all businesses from
+          small to
           large.</p>
         <div class="col-6">
           <button class="btn info btn-rad my-4" style="font-size: 20px; padding: 10px 30px;  font-weight: 700;">
@@ -125,23 +127,126 @@
     </div>
   </div>
 
-  <!-- Section B 5 ... -->
+  <!-- Section B 5  -->
   <div class="container">
     <div class="row my-4 py-5">
-      <h1 class="display-5 fw-bold text-center" style="color: #234CAD;" >Transform your communications</h1>
-      <p class="fs-6 text-center mt-2" style="color: #234CAD;">Our mobile app is the only thing you need to change the <br> way you communicate with your team</p>
+      <h1 class="display-5 fw-bold text-center" style="color: #234CAD;">Transform your communications</h1>
+      <p class="fs-6 text-center mt-2" style="color: #234CAD;">Our mobile app is the only thing you need to change the
+        <br> way you communicate with your team</p>
     </div>
   </div>
 
-  <!-- Section B 6  ...-->
+  <!-- Section B 6   -->
   <div class="container" style="background: #F2F6FF; border-radius: 60px; height: 600px;">
     <div class="row py-5">
       <img src="./assets/img/UI Components.svg" alt="..." style="margin-top: -15vh;">
     </div>
   </div>
 
-  
+<!-- Section C 1 -->
 
+<div class="container" id="about"><br>
+  <div class="row mt-5 sectionC">
+    <div class="col-12 col-md-6 order-md-first">
+      <h1 class="textSectionC1">Increase the efficiency within your company</h1>
+      <p class="mt-5 textSectionC1-2">Our app is the great way for you to start <br> getting more tasks done.</p>
+      <Button class="btn info btn-rad my-4" style="font-size: 20px; padding: 10px 30px;  font-weight: 700;">
+        Get the app
+      </Button>
+    </div>
+    <div class="col-12 col-md-6 order-md-last cardSectionC">
+      <img src="assets/img/Card.svg" alt="">
+    </div>
+  </div>
+</div>
+   
+<!-- Section C 2  -->
+<div class="container-fluid">
+  <div class="row my-4 py-5">
+    <h1 class="display-5 fw-bold text-center" style="color: #234CAD;">Explore our simple pricing</h1>
+    <p class="fs-6 text-center mt-2" style="color: #234CAD;">We offer one of the most competitive prices on the
+      <br> market for everyone.</p>
+  </div>
+</div>
+
+<div class="container-fluid price">
+  <div class="row">
+    <div class="card-pricing1 order-md-1">
+      <h1 class="txt-title mt-5">Basic</h1>
+      <h1 class="txt-price mt-3">$9</h1>
+      <p class="txt-month mt-3">Per month</p>
+      <div class="text-center mt-5">
+        <button class="btn-pricing"><a href="">Learn more</a></button>
+      </div>
+    </div>
+
+    <div class="card-pricing2 order-md-2">
+      <h1 class="txt-title mt-5">Premium</h1>
+      <h1 class="txt-price mt-3">$29</h1>
+      <p class="txt-month mt-3">Per month</p>
+      <div class="text-center mt-5">
+        <button class="btn-pricing2"><a href="">Get started</a></button>
+      </div>
+    </div>
+
+    <div class="card-pricing order-md-3">
+      <h1 class="txt-title mt-5">Enterprise</h1>
+      <h1 class="txt-price mt-3">$129</h1>
+      <p class="txt-month mt-3">Per month</p>
+      <div class="text-center mt-5">
+        <button class="btn-pricing"><a href="">Learn More</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <!-- Section D 1  -->
+  <div class="container" id="contact">
+    <div class="contact">
+      <h1 class="display-5 fw-bold text-center pt-5" style="color: #234CAD;">Sign up to our newsletter</h1>
+      <p class="text-center mt-3 textSectionC1-2">Receive latest news, updates, discounts and <br> many other things
+        every week.</p>
+
+      <div class="groupInput mb-3 input-group">
+        <input type="text" name="" id="groupInput" class="inputText" placeholder="    Enter your email address">
+      </div>
+      <div class="btn-submit">
+        <button class="btn" type="button">
+          <img src="assets/img/Submit Button.svg" alt="">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section D 2  -->
+  <div class="container">
+    <div class="footer">
+      <div class="d-flex justify-content-around">
+        <div>
+          <h1 class="txt-footer1">Startup.io</h1>
+          <p class="txt-footer2">© 2020 - All rights <br>reserved</p>
+        </div>
+        <div>
+          <h1 class="txt-footer1">Product</h1>
+          <p class="txt-footer2">Benefits</p>
+          <p class="txt-footer2">Feedback</p>
+          <p class="txt-footer2">Features</p>
+        </div>
+        <div>
+          <h1 class="txt-footer1">About</h1>
+          <p class="txt-footer2">Company</p>
+          <p class="txt-footer2">Team</p>
+        </div>
+        <div>
+          <h1 class="txt-footer1">Support</h1>
+          <p class="txt-footer2">Get help</p>
+          <p class="txt-footer2">Terms of service</p>
+        </div>
+      </div>
+    </div>
+  </div>
+     
   <script>
     // toggle icon navbar
     function myFunc() {
